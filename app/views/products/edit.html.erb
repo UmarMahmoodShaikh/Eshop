@@ -1,0 +1,12 @@
+<div>
+  <%= link_to "Home", brands_path %>
+   <%= link_to "Logout", "/" %>
+</div>
+<h1>Editing Product</h1>
+<%= render "form", product: @product %>
+<br>
+
+<div>
+  <%= link_to "Show this product", @product %> |
+  <%= link_to "Back to products", products_path %>
+</div>

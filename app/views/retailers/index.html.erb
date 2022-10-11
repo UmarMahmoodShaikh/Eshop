@@ -1,0 +1,42 @@
+<p style="color: green"><%= notice %></p>
+<div>
+   <%= link_to "Logout", "/" %>
+</div>
+<h2>Retailers</h2> 
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th></th>
+    <th>email</th>
+    <th></th>
+  </tr>
+<% @retailers.each do |retailer| %>
+  <tr>
+    <td><%= retailer.name %></td>
+    <td><%= retailer.address %></td>
+    <td></td>
+    <td><%= retailer.email %></td>
+    <td><%= link_to 'Select', retailer %></td>
+  </tr>
+<% end %>
+</table>
+<br />
+<hr>
+<hr>
+<h3>Pending Orders</h3> 
+<table>
+  <tr>
+    <th>Status</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+<% @orders.each do |order| %>
+  <tr>
+    <td><%= order.status %></td>
+    <td><%= link_to 'Update Order', edit_order_path(order) %></td>
+  </tr>
+<% end %>
+</table>
+<br />

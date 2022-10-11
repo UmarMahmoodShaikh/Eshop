@@ -1,0 +1,237 @@
+I, [2022-09-13T14:21:58.927553 #20597]  INFO -- : Migrating to CreateCompanies (20220726095725)
+I, [2022-09-13T14:21:58.940193 #20597]  INFO -- : Migrating to CreateProducts (20220726103428)
+I, [2022-09-13T14:21:58.983270 #20597]  INFO -- : Migrating to CreateBrands (20220727054732)
+I, [2022-09-13T14:21:58.986651 #20597]  INFO -- : Migrating to AddPassToCompanies (20220727102852)
+I, [2022-09-13T14:21:58.994702 #20597]  INFO -- : Migrating to CreateCategories (20220728072919)
+I, [2022-09-13T14:21:59.001299 #20597]  INFO -- : Migrating to CreateSubcategories (20220728073152)
+I, [2022-09-13T14:21:59.010517 #20597]  INFO -- : Migrating to CreateShoppers (20220728073514)
+I, [2022-09-13T14:21:59.014474 #20597]  INFO -- : Migrating to CreateAddresses (20220728073831)
+I, [2022-09-13T14:21:59.019150 #20597]  INFO -- : Migrating to CreateOrders (20220728073941)
+I, [2022-09-13T14:21:59.024869 #20597]  INFO -- : Migrating to CreateCarts (20220728074116)
+I, [2022-09-13T14:21:59.030832 #20597]  INFO -- : Migrating to CreateRetailers (20220816064622)
+I, [2022-09-13T14:21:59.036797 #20597]  INFO -- : Migrating to DeviseCreateUsers (20220818115601)
+I, [2022-09-13T14:21:59.047176 #20597]  INFO -- : Migrating to CreateChats (20220913073323)
+I, [2022-09-13T14:24:49.753262 #21004]  INFO -- : [b3391403-d4dd-49ed-b95b-81488b461e98] Started GET "/cable" for 127.0.0.1 at 2022-09-13 14:24:49 +0500
+I, [2022-09-13T14:24:49.767038 #21004]  INFO -- : [b3391403-d4dd-49ed-b95b-81488b461e98] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2022-09-13 14:24:49 +0500
+I, [2022-09-13T14:24:49.767233 #21004]  INFO -- : [b3391403-d4dd-49ed-b95b-81488b461e98] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+E, [2022-09-13T14:24:49.805919 #21004] ERROR -- : An unauthorized connection attempt was rejected
+I, [2022-09-13T14:24:49.807520 #21004]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2022-09-13 14:24:49 +0500
+I, [2022-09-13T18:40:35.891072 #38812]  INFO -- : [4232d763-8567-4e4a-ad6b-7bd805fdfbc4] Started GET "/cable" for 192.168.18.19 at 2022-09-13 18:40:35 +0500
+I, [2022-09-13T18:40:35.909433 #38812]  INFO -- : [4232d763-8567-4e4a-ad6b-7bd805fdfbc4] Started GET "/cable/" [WebSocket] for 192.168.18.19 at 2022-09-13 18:40:35 +0500
+I, [2022-09-13T18:40:35.909647 #38812]  INFO -- : [4232d763-8567-4e4a-ad6b-7bd805fdfbc4] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+E, [2022-09-13T18:40:35.940636 #38812] ERROR -- : An unauthorized connection attempt was rejected
+I, [2022-09-13T18:40:35.943374 #38812]  INFO -- : Finished "/cable/" [WebSocket] for 192.168.18.19 at 2022-09-13 18:40:35 +0500
+I, [2022-09-13T18:40:36.089755 #38812]  INFO -- : [d46a1d1b-bea5-453c-aa8a-0bcb51080170] Started GET "/cable" for 192.168.18.19 at 2022-09-13 18:40:36 +0500
+I, [2022-09-13T18:40:36.090536 #38812]  INFO -- : [d46a1d1b-bea5-453c-aa8a-0bcb51080170] Started GET "/cable/" [WebSocket] for 192.168.18.19 at 2022-09-13 18:40:36 +0500
+I, [2022-09-13T18:40:36.090622 #38812]  INFO -- : [d46a1d1b-bea5-453c-aa8a-0bcb51080170] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+E, [2022-09-13T18:40:36.092628 #38812] ERROR -- : An unauthorized connection attempt was rejected
+I, [2022-09-13T18:40:36.093295 #38812]  INFO -- : Finished "/cable/" [WebSocket] for 192.168.18.19 at 2022-09-13 18:40:36 +0500
+I, [2022-09-13T18:40:38.673311 #38812]  INFO -- : [3034a6f3-f015-4deb-83a3-4ea22e0cede1] Started GET "/" for 127.0.0.1 at 2022-09-13 18:40:38 +0500
+I, [2022-09-13T18:40:38.674381 #38812]  INFO -- : [3034a6f3-f015-4deb-83a3-4ea22e0cede1] Processing by UsersController#index as HTML
+I, [2022-09-13T18:40:38.676902 #38812]  INFO -- : [3034a6f3-f015-4deb-83a3-4ea22e0cede1] Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 1104)
+I, [2022-09-13T18:40:38.684104 #38812]  INFO -- : [aacff43a-9865-49d8-abb8-7beca1263a86] Started GET "/users/sign_in" for 127.0.0.1 at 2022-09-13 18:40:38 +0500
+I, [2022-09-13T18:40:38.684774 #38812]  INFO -- : [aacff43a-9865-49d8-abb8-7beca1263a86] Processing by Devise::SessionsController#new as HTML
+I, [2022-09-13T18:40:38.705125 #38812]  INFO -- : [aacff43a-9865-49d8-abb8-7beca1263a86]   Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2890)
+I, [2022-09-13T18:40:38.915148 #38812]  INFO -- : [aacff43a-9865-49d8-abb8-7beca1263a86]   Rendered layout layouts/application.html.erb (Duration: 213.3ms | Allocations: 117172)
+I, [2022-09-13T18:40:38.915362 #38812]  INFO -- : [aacff43a-9865-49d8-abb8-7beca1263a86] Completed 200 OK in 231ms (Views: 215.2ms | ActiveRecord: 9.9ms | Allocations: 123661)
+I, [2022-09-13T18:40:38.976036 #38812]  INFO -- : [48037a16-b31e-48a8-85a3-a41077126734] Started GET "/assets/channels/room_channel" for 127.0.0.1 at 2022-09-13 18:40:38 +0500
+I, [2022-09-13T18:40:38.982211 #38812]  INFO -- : [7732419f-d331-41fb-b139-c49449ec9623] Started GET "/assets/channels/consumer" for 127.0.0.1 at 2022-09-13 18:40:38 +0500
+I, [2022-09-13T18:40:39.003124 #38812]  INFO -- : [3882a063-a9d8-4eed-adbf-bbe7c1cb13d0] Started GET "/cable" for 192.168.18.19 at 2022-09-13 18:40:39 +0500
+I, [2022-09-13T18:40:39.003545 #38812]  INFO -- : [3882a063-a9d8-4eed-adbf-bbe7c1cb13d0] Started GET "/cable/" [WebSocket] for 192.168.18.19 at 2022-09-13 18:40:39 +0500
+I, [2022-09-13T18:40:39.003680 #38812]  INFO -- : [3882a063-a9d8-4eed-adbf-bbe7c1cb13d0] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+E, [2022-09-13T18:40:39.005211 #38812] ERROR -- : An unauthorized connection attempt was rejected
+I, [2022-09-13T18:40:39.005811 #38812]  INFO -- : Finished "/cable/" [WebSocket] for 192.168.18.19 at 2022-09-13 18:40:39 +0500
+I, [2022-09-13T18:40:46.632922 #38812]  INFO -- : [c13925c7-31ea-412a-8540-ecfedfdaf112] Started GET "/users/sign_up" for 127.0.0.1 at 2022-09-13 18:40:46 +0500
+I, [2022-09-13T18:40:46.634273 #38812]  INFO -- : [c13925c7-31ea-412a-8540-ecfedfdaf112] Processing by Devise::RegistrationsController#new as HTML
+I, [2022-09-13T18:40:46.643754 #38812]  INFO -- : [c13925c7-31ea-412a-8540-ecfedfdaf112]   Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2131)
+I, [2022-09-13T18:40:46.657011 #38812]  INFO -- : [c13925c7-31ea-412a-8540-ecfedfdaf112]   Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 4994)
+I, [2022-09-13T18:40:46.657281 #38812]  INFO -- : [c13925c7-31ea-412a-8540-ecfedfdaf112] Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 6122)
+I, [2022-09-13T18:41:03.953846 #38812]  INFO -- : [3960977f-86f1-4891-8b9a-ef36b02f005b] Started POST "/users" for 127.0.0.1 at 2022-09-13 18:41:03 +0500
+I, [2022-09-13T18:41:03.959529 #38812]  INFO -- : [3960977f-86f1-4891-8b9a-ef36b02f005b] Processing by Devise::RegistrationsController#create as TURBO_STREAM
+I, [2022-09-13T18:41:03.959590 #38812]  INFO -- : [3960977f-86f1-4891-8b9a-ef36b02f005b]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"user12@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+I, [2022-09-13T18:41:04.398025 #38812]  INFO -- : [3960977f-86f1-4891-8b9a-ef36b02f005b] Redirected to 
+I, [2022-09-13T18:41:04.404825 #38812]  INFO -- : [3960977f-86f1-4891-8b9a-ef36b02f005b] Completed 500 Internal Server Error in 445ms (ActiveRecord: 7.0ms | Allocations: 8589)
+F, [2022-09-13T18:41:04.425697 #38812] FATAL -- : [3960977f-86f1-4891-8b9a-ef36b02f005b]   
+[3960977f-86f1-4891-8b9a-ef36b02f005b] NoMethodError (undefined method `user_url' for #<Devise::RegistrationsController:0x0000000002b7a0>
+
+              recipient.public_send(method, *args)
+                       ^^^^^^^^^^^^
+Did you mean?  shopper_url):
+[3960977f-86f1-4891-8b9a-ef36b02f005b]   
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/routing/polymorphic_routes.rb:231:in `public_send'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/routing/polymorphic_routes.rb:231:in `polymorphic_method'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/routing/polymorphic_routes.rb:116:in `polymorphic_url'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/routing/url_for.rb:187:in `full_url_for'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/routing/url_for.rb:170:in `url_for'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_controller/metal/redirecting.rb:144:in `_compute_redirect_to_location'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_controller/metal/redirecting.rb:89:in `redirect_to'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_controller/metal/flash.rb:62:in `redirect_to'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:42:in `block in redirect_to'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:41:in `redirect_to'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] responders (3.0.1) lib/action_controller/responder.rb:147:in `redirect_to'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] responders (3.0.1) lib/action_controller/responder.rb:207:in `navigation_behavior'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] responders (3.0.1) lib/action_controller/responder.rb:174:in `rescue in to_html'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] responders (3.0.1) lib/action_controller/responder.rb:171:in `to_html'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] responders (3.0.1) lib/action_controller/responder.rb:165:in `respond'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] responders (3.0.1) lib/action_controller/responder.rb:158:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] responders (3.0.1) lib/action_controller/respond_with.rb:213:in `respond_with'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] devise (4.8.1) app/controllers/devise/registrations_controller.rb:25:in `create'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] warden (1.2.9) lib/warden/manager.rb:34:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] rack (2.2.4) lib/rack/etag.rb:27:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] rack (2.2.4) lib/rack/head.rb:12:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:131:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+[3960977f-86f1-4891-8b9a-ef36b02f005b] puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+I, [2022-09-13T18:41:09.168216 #38812]  INFO -- : [a8933899-e701-4989-880b-7e4891a8557f] Started GET "/users/sign_up" for 127.0.0.1 at 2022-09-13 18:41:09 +0500
+I, [2022-09-13T18:41:09.172945 #38812]  INFO -- : [a8933899-e701-4989-880b-7e4891a8557f] Processing by Devise::RegistrationsController#new as HTML
+I, [2022-09-13T18:41:09.191993 #38812]  INFO -- : [a8933899-e701-4989-880b-7e4891a8557f]   Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1336)
+I, [2022-09-13T18:41:09.195411 #38812]  INFO -- : [a8933899-e701-4989-880b-7e4891a8557f]   Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 4085)
+I, [2022-09-13T18:41:09.195625 #38812]  INFO -- : [a8933899-e701-4989-880b-7e4891a8557f] Completed 200 OK in 23ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4595)
+I, [2022-09-13T18:41:09.246972 #38812]  INFO -- : [09e0843b-3697-4c99-a6d0-d95c3c4103ca] Started GET "/assets/channels/room_channel" for 127.0.0.1 at 2022-09-13 18:41:09 +0500
+I, [2022-09-13T18:41:09.250342 #38812]  INFO -- : [50235f17-0496-4d77-84e3-d3be8630fb38] Started GET "/assets/channels/consumer" for 127.0.0.1 at 2022-09-13 18:41:09 +0500
+I, [2022-09-13T18:41:09.264615 #38812]  INFO -- : [7567ce84-e885-4803-b1d0-efbcf89624e5] Started GET "/cable" for 192.168.18.19 at 2022-09-13 18:41:09 +0500
+I, [2022-09-13T18:41:09.265070 #38812]  INFO -- : [7567ce84-e885-4803-b1d0-efbcf89624e5] Started GET "/cable/" [WebSocket] for 192.168.18.19 at 2022-09-13 18:41:09 +0500
+I, [2022-09-13T18:41:09.265122 #38812]  INFO -- : [7567ce84-e885-4803-b1d0-efbcf89624e5] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+E, [2022-09-13T18:41:09.267004 #38812] ERROR -- : An unauthorized connection attempt was rejected
+I, [2022-09-13T18:41:09.267902 #38812]  INFO -- : Finished "/cable/" [WebSocket] for 192.168.18.19 at 2022-09-13 18:41:09 +0500
+I, [2022-09-13T18:41:15.349931 #38812]  INFO -- : [6ae7b5c5-8eef-47c7-b209-b6ce5c3fd832] Started GET "/session/new.user" for 127.0.0.1 at 2022-09-13 18:41:15 +0500
+F, [2022-09-13T18:41:15.366305 #38812] FATAL -- : [6ae7b5c5-8eef-47c7-b209-b6ce5c3fd832]   
+[6ae7b5c5-8eef-47c7-b209-b6ce5c3fd832] ActionController::RoutingError (uninitialized constant SessionController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+[6ae7b5c5-8eef-47c7-b209-b6ce5c3fd832]   
+I, [2022-09-13T18:41:18.862926 #38812]  INFO -- : [b9c7ea43-1207-435d-899c-8a8e1b49d821] Started GET "/users/sign_in" for 127.0.0.1 at 2022-09-13 18:41:18 +0500
+I, [2022-09-13T18:41:18.864004 #38812]  INFO -- : [b9c7ea43-1207-435d-899c-8a8e1b49d821] Processing by Devise::SessionsController#new as HTML
+I, [2022-09-13T18:41:18.867142 #38812]  INFO -- : [b9c7ea43-1207-435d-899c-8a8e1b49d821]   Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1255)
+I, [2022-09-13T18:41:18.870566 #38812]  INFO -- : [b9c7ea43-1207-435d-899c-8a8e1b49d821]   Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 3910)
+I, [2022-09-13T18:41:18.870872 #38812]  INFO -- : [b9c7ea43-1207-435d-899c-8a8e1b49d821] Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4450)
+I, [2022-09-13T18:41:33.445714 #38812]  INFO -- : [de5ef73e-ef38-42e3-81b1-87fc2f2718cb] Started POST "/session/user" for 127.0.0.1 at 2022-09-13 18:41:33 +0500
+I, [2022-09-13T18:41:33.446787 #38812]  INFO -- : [de5ef73e-ef38-42e3-81b1-87fc2f2718cb] Processing by Devise::SessionsController#create as TURBO_STREAM
+I, [2022-09-13T18:41:33.446888 #38812]  INFO -- : [de5ef73e-ef38-42e3-81b1-87fc2f2718cb]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"user12@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2022-09-13T18:41:33.865476 #38812]  INFO -- : [de5ef73e-ef38-42e3-81b1-87fc2f2718cb] Redirected to http://localhost:3000/
+I, [2022-09-13T18:41:33.865584 #38812]  INFO -- : [de5ef73e-ef38-42e3-81b1-87fc2f2718cb] Completed 302 Found in 419ms (ActiveRecord: 0.6ms | Allocations: 1610)
+I, [2022-09-13T18:41:33.872701 #38812]  INFO -- : [dfe4676f-1a95-466a-ae66-200708a0c791] Started GET "/" for 127.0.0.1 at 2022-09-13 18:41:33 +0500
+I, [2022-09-13T18:41:33.873320 #38812]  INFO -- : [dfe4676f-1a95-466a-ae66-200708a0c791] Processing by UsersController#index as TURBO_STREAM
+I, [2022-09-13T18:41:33.899944 #38812]  INFO -- : [dfe4676f-1a95-466a-ae66-200708a0c791]   Rendered users/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 230)
+I, [2022-09-13T18:41:33.901818 #38812]  INFO -- : [dfe4676f-1a95-466a-ae66-200708a0c791]   Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 3139)
+I, [2022-09-13T18:41:33.901959 #38812]  INFO -- : [dfe4676f-1a95-466a-ae66-200708a0c791] Completed 200 OK in 29ms (Views: 4.0ms | ActiveRecord: 0.4ms | Allocations: 4304)
+I, [2022-09-13T18:42:09.386078 #38812]  INFO -- : [7176cabe-c5cb-4fb4-84c4-a1a46d33df92] Started POST "/sessions" for 127.0.0.1 at 2022-09-13 18:42:09 +0500
+I, [2022-09-13T18:42:09.388301 #38812]  INFO -- : [7176cabe-c5cb-4fb4-84c4-a1a46d33df92] Processing by XyzController#index as TURBO_STREAM
+I, [2022-09-13T18:42:09.388490 #38812]  INFO -- : [7176cabe-c5cb-4fb4-84c4-a1a46d33df92]   Parameters: {"authentication_token"=>"[FILTERED]", "login"=>{"email"=>"shopper1@gmail.com", "password"=>"[FILTERED]"}}
+I, [2022-09-13T18:42:09.412751 #38812]  INFO -- : [7176cabe-c5cb-4fb4-84c4-a1a46d33df92] Redirected to http://localhost:3000/
+I, [2022-09-13T18:42:09.413138 #38812]  INFO -- : [7176cabe-c5cb-4fb4-84c4-a1a46d33df92] Completed 302 Found in 24ms (ActiveRecord: 12.4ms | Allocations: 3010)
+I, [2022-09-13T18:42:09.419960 #38812]  INFO -- : [567c4b30-3459-4e14-b877-2c5fb2ba1c42] Started GET "/" for 127.0.0.1 at 2022-09-13 18:42:09 +0500
+I, [2022-09-13T18:42:09.420912 #38812]  INFO -- : [567c4b30-3459-4e14-b877-2c5fb2ba1c42] Processing by UsersController#index as TURBO_STREAM
+I, [2022-09-13T18:42:09.445226 #38812]  INFO -- : [567c4b30-3459-4e14-b877-2c5fb2ba1c42]   Rendered users/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 44)
+I, [2022-09-13T18:42:09.449518 #38812]  INFO -- : [567c4b30-3459-4e14-b877-2c5fb2ba1c42]   Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2703)
+I, [2022-09-13T18:42:09.449998 #38812]  INFO -- : [567c4b30-3459-4e14-b877-2c5fb2ba1c42] Completed 200 OK in 29ms (Views: 5.6ms | ActiveRecord: 0.4ms | Allocations: 3359)
+I, [2022-09-13T18:42:54.697614 #38812]  INFO -- : [62d24446-24f1-4e97-8b47-1bc074fd4f0f] Started GET "/chats/new" for 127.0.0.1 at 2022-09-13 18:42:54 +0500
+I, [2022-09-13T18:42:54.698974 #38812]  INFO -- : [62d24446-24f1-4e97-8b47-1bc074fd4f0f] Processing by ChatsController#new as HTML
+I, [2022-09-13T18:42:54.721691 #38812]  INFO -- : [62d24446-24f1-4e97-8b47-1bc074fd4f0f]   Rendered chats/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1707)
+I, [2022-09-13T18:42:54.724537 #38812]  INFO -- : [62d24446-24f1-4e97-8b47-1bc074fd4f0f]   Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 4543)
+I, [2022-09-13T18:42:54.724866 #38812]  INFO -- : [62d24446-24f1-4e97-8b47-1bc074fd4f0f] Completed 200 OK in 26ms (Views: 10.2ms | ActiveRecord: 9.2ms | Allocations: 7265)
+I, [2022-09-13T18:43:01.010853 #38812]  INFO -- : [13d2253d-cbfe-4f0d-8b32-9adbe4cb7068] Started POST "/chats" for 127.0.0.1 at 2022-09-13 18:43:01 +0500
+I, [2022-09-13T18:43:01.012187 #38812]  INFO -- : [13d2253d-cbfe-4f0d-8b32-9adbe4cb7068] Processing by ChatsController#create as TURBO_STREAM
+I, [2022-09-13T18:43:01.012250 #38812]  INFO -- : [13d2253d-cbfe-4f0d-8b32-9adbe4cb7068]   Parameters: {"authenticity_token"=>"[FILTERED]", "chat"=>{"message"=>"hello"}, "commit"=>"Create Chat"}
+I, [2022-09-13T18:43:01.050380 #38812]  INFO -- : [13d2253d-cbfe-4f0d-8b32-9adbe4cb7068] Completed 406 Not Acceptable in 38ms (ActiveRecord: 2.9ms | Allocations: 4232)
+F, [2022-09-13T18:43:01.051081 #38812] FATAL -- : [13d2253d-cbfe-4f0d-8b32-9adbe4cb7068]   
+[13d2253d-cbfe-4f0d-8b32-9adbe4cb7068] ActionController::UnknownFormat (ActionController::UnknownFormat):
+[13d2253d-cbfe-4f0d-8b32-9adbe4cb7068]   
+[13d2253d-cbfe-4f0d-8b32-9adbe4cb7068] app/controllers/chats_controller.rb:26:in `create'
+I, [2022-09-13T18:43:02.979618 #38812]  INFO -- : [6cfad056-e596-4234-a165-a2a1ba1b80b0] Started POST "/chats" for 127.0.0.1 at 2022-09-13 18:43:02 +0500
+I, [2022-09-13T18:43:02.981129 #38812]  INFO -- : [6cfad056-e596-4234-a165-a2a1ba1b80b0] Processing by ChatsController#create as TURBO_STREAM
+I, [2022-09-13T18:43:02.981209 #38812]  INFO -- : [6cfad056-e596-4234-a165-a2a1ba1b80b0]   Parameters: {"authenticity_token"=>"[FILTERED]", "chat"=>{"message"=>"hello"}, "commit"=>"Create Chat"}
+I, [2022-09-13T18:43:02.990432 #38812]  INFO -- : [6cfad056-e596-4234-a165-a2a1ba1b80b0] Completed 406 Not Acceptable in 9ms (ActiveRecord: 1.9ms | Allocations: 1145)
+F, [2022-09-13T18:43:02.991536 #38812] FATAL -- : [6cfad056-e596-4234-a165-a2a1ba1b80b0]   
+[6cfad056-e596-4234-a165-a2a1ba1b80b0] ActionController::UnknownFormat (ActionController::UnknownFormat):
+[6cfad056-e596-4234-a165-a2a1ba1b80b0]   
+[6cfad056-e596-4234-a165-a2a1ba1b80b0] app/controllers/chats_controller.rb:26:in `create'
+I, [2022-09-13T18:46:29.697991 #38812]  INFO -- : [99650ba5-49c5-4f5e-9f28-1d945857bbce] Started GET "/addresses" for 127.0.0.1 at 2022-09-13 18:46:29 +0500
+I, [2022-09-13T18:46:29.699244 #38812]  INFO -- : [99650ba5-49c5-4f5e-9f28-1d945857bbce] Processing by AddressesController#index as HTML
+I, [2022-09-13T18:46:29.702672 #38812]  INFO -- : [99650ba5-49c5-4f5e-9f28-1d945857bbce] Redirected to http://localhost:3000/
+I, [2022-09-13T18:46:29.702971 #38812]  INFO -- : [99650ba5-49c5-4f5e-9f28-1d945857bbce] Filter chain halted as :require_user rendered or redirected
+I, [2022-09-13T18:46:29.703171 #38812]  INFO -- : [99650ba5-49c5-4f5e-9f28-1d945857bbce] Completed 302 Found in 4ms (ActiveRecord: 0.2ms | Allocations: 726)
+I, [2022-09-13T18:46:29.707875 #38812]  INFO -- : [b1dcd8f3-2382-405a-9bda-a6f1413b56e3] Started GET "/" for 127.0.0.1 at 2022-09-13 18:46:29 +0500
+I, [2022-09-13T18:46:29.708706 #38812]  INFO -- : [b1dcd8f3-2382-405a-9bda-a6f1413b56e3] Processing by UsersController#index as HTML
+I, [2022-09-13T18:46:29.732602 #38812]  INFO -- : [b1dcd8f3-2382-405a-9bda-a6f1413b56e3]   Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 54)
+I, [2022-09-13T18:46:29.738596 #38812]  INFO -- : [b1dcd8f3-2382-405a-9bda-a6f1413b56e3]   Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2801)
+I, [2022-09-13T18:46:29.739048 #38812]  INFO -- : [b1dcd8f3-2382-405a-9bda-a6f1413b56e3] Completed 200 OK in 30ms (Views: 7.2ms | ActiveRecord: 0.2ms | Allocations: 3483)
+I, [2022-09-13T18:46:31.798539 #38812]  INFO -- : [9927ac91-6f32-4225-b40f-85c9b9045a9c] Started POST "/sessions" for 127.0.0.1 at 2022-09-13 18:46:31 +0500
+I, [2022-09-13T18:46:31.800065 #38812]  INFO -- : [9927ac91-6f32-4225-b40f-85c9b9045a9c] Processing by XyzController#index as TURBO_STREAM
+I, [2022-09-13T18:46:31.800187 #38812]  INFO -- : [9927ac91-6f32-4225-b40f-85c9b9045a9c]   Parameters: {"authentication_token"=>"[FILTERED]", "login"=>{"email"=>"umar@gmail.com", "password"=>"[FILTERED]"}}
+I, [2022-09-13T18:46:31.803799 #38812]  INFO -- : [9927ac91-6f32-4225-b40f-85c9b9045a9c] Redirected to http://localhost:3000/
+I, [2022-09-13T18:46:31.803963 #38812]  INFO -- : [9927ac91-6f32-4225-b40f-85c9b9045a9c] Completed 302 Found in 4ms (ActiveRecord: 0.6ms | Allocations: 1023)
+I, [2022-09-13T18:46:31.807455 #38812]  INFO -- : [3061d2f5-c14c-4600-b5b3-6cecb1dbee7e] Started GET "/" for 127.0.0.1 at 2022-09-13 18:46:31 +0500
+I, [2022-09-13T18:46:31.808584 #38812]  INFO -- : [3061d2f5-c14c-4600-b5b3-6cecb1dbee7e] Processing by UsersController#index as TURBO_STREAM
+I, [2022-09-13T18:46:31.834664 #38812]  INFO -- : [3061d2f5-c14c-4600-b5b3-6cecb1dbee7e]   Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 44)
+I, [2022-09-13T18:46:31.838609 #38812]  INFO -- : [3061d2f5-c14c-4600-b5b3-6cecb1dbee7e]   Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2702)
+I, [2022-09-13T18:46:31.838994 #38812]  INFO -- : [3061d2f5-c14c-4600-b5b3-6cecb1dbee7e] Completed 200 OK in 30ms (Views: 5.2ms | ActiveRecord: 0.2ms | Allocations: 3332)

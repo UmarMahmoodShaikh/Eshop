@@ -1,0 +1,18 @@
+<p style="color: green"><%= notice %></p>
+<%= link_to "Home", orders_path %>
+<%= link_to "Logout", "/" %>
+<br><hr>
+<%= render @order %>
+<%= render @cart %>
+<%= @gt %>
+<h4>Items: </h4>
+<% @prods.each do |prods| %>
+-> <%= prods["product_name"]%>
+x <%= prods["product_qty"]%>
+<br>
+<% end %>
+<h4>Address</h4>
+<%= Redis.current.get("address")%>
+
+
+<%= render "form", order: @order %>

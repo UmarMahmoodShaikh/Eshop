@@ -1,0 +1,28 @@
+<p style="color: green"><%= notice %></p>
+
+<div>
+  <%= link_to "Home", categories_path %>
+   <%= link_to "Logout", "/" %>
+</div>
+<%= Redis.current.get("subcategory_name") %>
+
+<h1>Listing Products</h1> 
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Price</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+<% @product.each do |product| %>
+  <tr>
+    <td><%= product.name %></td>
+    <td><%= product.description %></td>
+    <td><%= product.price %></td>
+    <td><%= link_to 'Show', product %></td>
+  </tr>
+<% end %>
+</table>
+<br />

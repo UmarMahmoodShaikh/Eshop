@@ -1,0 +1,100 @@
+<p style="color: green"><%= notice %></p>
+<div>
+  <%= link_to "Change Address", addresses_path %>
+  <%= link_to "Logout", "/" %>
+</div>
+<hr>
+<h2>Categories</h2> 
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+<% @categories.each do |category| %>
+  <tr>
+    <td><%= category.name %></td>
+    <td><%= link_to 'Select', category %></td>
+  </tr>
+<% end %>
+</table>
+<br />
+<hr>
+<h3>Current Cart</h3> 
+<% if @prods == "Cart is empty" %>
+<p>Cart is empty</p>
+<% else %>
+<table>
+  <tr>
+    <th></th>
+    <th>Total Quantity</th>
+    <th></th>
+    <th></th>
+    <th>Total-Price</th>
+    <th></th>
+  </tr>
+<% @cart.each do |cartItems| %>
+  <tr>
+    <td></td>
+    <td>
+    &nbsp;&nbsp;&nbsp; <%=cartItems.qty%><br>
+    </td>
+    <td></td>
+    <td></td>
+    <td>
+    <%= cartItems.total%> Pkr<br>
+    </td> 
+    <td>
+    <%# <%= @cart[0]["ITEMS"]%><br> 
+    </td>
+  </tr>
+<% end %>
+</table>
+<% @cart[0].products.each do |product| %><br>
+<tr>
+<td>Name</td>
+</tr>
+<tr>
+<td><%= product["product_name"] %></td>
+</tr>
+<% end%>
+<br>
+<%= link_to "Place Order", new_order_path %>
+<% end %>
+
+<hr>
+<h3>Pending Orders</h3> 
+<table>
+<h5>Products</h5>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+<% @ordersPending.each do |orderP| %>
+  <tr>
+    <td>
+    <% orderP.status %>
+    </td>
+  </tr>
+<% end %>
+</table>
+<hr>
+<h5>Completed Orders</h3> 
+<h5>Products</h5>
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+<% @ordersCompleted.each do |orderP| %>
+  <tr>
+    <td>
+    <% orderP.status %>
+    </td>
+  </tr>
+<% end %>
+</table>
+<br />

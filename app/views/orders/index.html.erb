@@ -1,0 +1,20 @@
+<p style="color: green"><%= notice %></p>
+<%= link_to "Logout", "/" %>
+<hr>
+<h3>Orders</h3>
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+<% @orders.each do |order| %>
+  <tr>
+    <td><% if order.status == 0  %>
+        Pending Order
+        <% end%>
+    </td>
+     <td> <%= link_to "Update", order %></td>    
+  </tr>
+<% end %>
+</table>

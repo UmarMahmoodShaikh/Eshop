@@ -1,0 +1,37 @@
+<p style="color: green"><%= notice %></p>
+<div>
+  <%= link_to "Home", brands_path %>
+   <%= link_to "Logout", "/" %>
+</div>
+<h2>Brand</h2>
+<%= render @brand %>
+<%= link_to "Edit this brand", edit_brand_path(@brand) %> |
+<%= link_to "Back to brands", brands_path %>
+<%= button_to "Destroy this brand", @brand, method: :delete %>
+<hr>
+<h3><%= @brand.name %> Products:</h3> 
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Price</th>
+    <th></th>
+    <th>Quantity</th>
+  </tr>
+<% @product.each do |product| %>
+  <tr>
+    <td><%= product.name %></td>
+    <td><%= product.description %></td>
+    <td><%= product.price %></td>  
+    <td></td>
+    <td><%= product.quantity %></td>
+    <td><%= link_to "Edit ", edit_product_path(product.id) %></td>
+    
+  </tr>
+<% end %>
+</table>
+<hr>
+<p>
+   <%= link_to 'Search', search_products_path %> Product.
+</p>
+<%= link_to 'New product', new_product_path %>

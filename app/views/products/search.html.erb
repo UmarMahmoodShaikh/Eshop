@@ -1,0 +1,41 @@
+<div>
+  <%= link_to "Home", brands_path %>
+   <%= link_to "Logout", "/" %>
+</div>
+<h1>Search Product</h1>
+<%= form_for :search_products, url: search_products_path, method: :get do |form| %>
+  <%= form.text_field :query, value: params[:search_products].presence && params[:search_products][:query] %>
+  <%= form.submit 'Search' %>
+<% end %>
+<% unless @products.nil? %>
+  <% if @products.empty? %>
+    <h2>No products found matching your query.</h2>
+  <% else %>
+    <h2>Search results</h2>
+    <table style="width: 100%;">
+      <thead>
+         <tr>
+           <th>Name</th>
+           <th>Description</th>
+           <th>Quantity Available</th>
+           <th>Price</th>
+         </tr>
+      </thead>
+      <tbody>
+        <% @products.each do |product| %>
+          <tr>
+            <td><%= product.name %></td>
+            <td><%= product.description %></td>
+            <td><%= product.quantity %></td>
+            <td><%= product.price %></td>
+            <td><%= link_to 'View', product_path(product.id) %></td>
+          </tr>
+        <% end %>
+      <tbody>
+    </table>
+  <% end %>
+<% end %>
+
+<div>
+  <%= link_to "Back to Brands", brands_path %>
+</div>

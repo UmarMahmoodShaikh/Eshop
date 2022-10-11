@@ -1,0 +1,23 @@
+<p style="color: green"><%= notice %></p>
+<div>
+  <%= link_to "Home", categories_path %>
+   <%= link_to "Logout", "/" %>
+</div>
+<h2>Category</h2>
+<%= Redis.current.get("category_name") %>
+<%= link_to "Back to categories", categories_path %>
+<hr>
+<h3><%= @category.name %> Subcategories:</h3> 
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+  </tr>
+<% @subcategory.each do |subcategory| %>
+  <tr>
+    <td><%= subcategory.name %></td>
+     <td> <%= link_to "Select", subcategory %></td>    
+  </tr>
+<% end %>
+</table>

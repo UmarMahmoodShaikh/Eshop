@@ -1,0 +1,18 @@
+<p style="color: green"><%= notice %></p>
+<br>
+<div>
+  <%= link_to "Home", addresses_path %>
+   <%= link_to "Logout", "/" %>
+</div>
+<br><hr>
+<h1>All Messages</h1>
+<div id="chats">
+  <% @chats.each do |chat| %>
+    - <%= chat %><br>
+    <!--<p>
+      <%= link_to "Show this chat", chat %>
+    </p> -->
+  <% end %>
+</div>
+<br><hr>
+<%= link_to "New chat", new_chat_path %>

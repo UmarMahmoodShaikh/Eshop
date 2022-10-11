@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>E-Shop</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+   
+
+    <%# <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+  </head><p class="navbar-text float-right">
+  <% if Redis.current.get("shopper_name") == '0'%>
+<strong> Welcome to the E-Shop</strong>
+<% else%>
+<strong><%= Redis.current.get("shopper_name") %></strong>
+<% end %>
+</p>
+<% if user_signed_in? %>
+  <%# <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> 
+  <button><%= link_to "Clear Session", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %></button>
+  <button><%= link_to "Live Chat", new_chat_path, :class => 'navbar-link'  %></button>
+
+<% else %>
+  <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
+  <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+<% end %>
+<body style="background: #EEEEE0;">
+
+  <body><% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
+    <%= yield %>
+  </body>
+  
+</html>

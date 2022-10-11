@@ -1,0 +1,19 @@
+<p style="color: green"><%= notice %></p>
+<div>
+  <%= link_to "Home", categories_path %>
+   <%= link_to "Logout", "/" %>
+</div>
+<%= render @product %>
+<%= form_with(model: @product) do |form| %>
+<div>
+    <%= form.label :quantity, style: "display: block" %>
+    <%= form.text_field :quantity %>
+</div>
+<div>
+<%= image_tag("#{@url}", width: 180, heigth: 180) %>
+</div>
+  <div>
+    <%= form.submit value="Add to Cart" %>
+  </div>
+
+<% end %>

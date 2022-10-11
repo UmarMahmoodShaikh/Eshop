@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+<div>
+  <%= link_to "Home", categories_path %>
+   <%= link_to "Logout", "/" %>
+</div>
+<%= render @cart %>
+<h4>GRAND TOTAL: </h4>
+<%= @gt %>  
+
+<%= link_to "Place Order", new_order_path %>

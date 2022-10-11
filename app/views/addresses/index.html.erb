@@ -1,0 +1,24 @@
+<p style="color: green"><%= notice %></p>
+<h3>Select Address</h3> 
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+<% @addresses.each do |address| %>
+  <tr>
+    <td>| <%= address[1] %></td>
+    <td>|</td>
+    <td><button><%= link_to 'Select', address_path(address[0]) %></button></td>
+    <td>|</td>
+    <td><button><%= link_to 'Edit', edit_address_path(address[0]) %></button></td>
+    <td>|</td>
+    <td><%= button_to "Delete", address_path(address[0]), form: { data: { turbo_confirm: "Are you sure you want to delete #{address[1]} address?" } }, method: :delete%></td> 
+    <td>|</td>
+  </tr>
+<% end %>
+</table>
+<br />
+<button><%= link_to "Add New Address", new_address_path %></button>

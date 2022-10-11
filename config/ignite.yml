@@ -1,0 +1,3 @@
+development:
+  adapter: ignite
+  url: ignite://e-shop-ignite:eshopignite123@2b07e895-1621-4111-bee3-354ae7ba8602.gridgain-nebula.com:10800

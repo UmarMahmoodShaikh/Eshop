@@ -1,0 +1,25 @@
+<p style="color: green"><%= notice %></p>
+<div>
+  <button><%= link_to "Change Address", addresses_path %></button>
+   <button><%= link_to "Logout", "/" %></button>
+</div>
+<h4>Name: <%= Redis.current.get("address_name") %></h4>
+<h4>Details: <%= Redis.current.get("address_detail") %></h4>
+<hr>
+<h3>Retailers near your </h3> 
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+<% @retailers.each do |retailer| %>
+  <tr>
+    <td><%= retailer.name %></td>
+    <td><button><%= link_to 'Select', retailer %></button></td>
+  </tr>
+<% end %>
+</table>
+<br />
+<hr>

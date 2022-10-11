@@ -1,0 +1,24 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>Login Page</title>
+  </head>
+  <body>
+  <h3>Login</h3>
+  <form action="/sessions" method="POST">
+  <input type="hidden" name="authentication_token" value ="<%=form_authenticity_token%>" >
+   <input type="email" name="login[email]" placeholder="email" >
+      <input type="password" name="login[password]" placeholder="password" >
+      <input type="submit" name="submit" class="submit">
+   </form>
+<br>
+<hr>
+<h3>API WALA FORM</h3>
+<form method="GET" action="http://localhost:3000/api/v1/shoppers/Shopper?email=email1&pass=pass1" >  
+  <input type="hidden" name="authentication_token" value ="<%=form_authenticity_token%>" >
+   <input type="email" name="email1" placeholder="email" >
+      <input type="password" name="pass1" placeholder="password" >
+      <input type="submit" name="submit" class="submit">
+   </form>
+ </body>
+</html>
